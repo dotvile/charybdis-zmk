@@ -129,10 +129,10 @@
         Pointer {
             label = "Pointer";
             bindings = <
-  &trans  &trans     &trans     &trans     &trans    &trans         &trans     &trans     &trans   &trans
-  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &kp PG_UP      &mkp RCLK  &mkp MCLK  &none    &none
-  &trans  &trans     &mo 7      &mo 6      &trans    &kp PAGE_DOWN  &mkp LCLK  &mo 7      &mo SCR  &trans
-                     &trans     &trans     &trans    &trans         &trans
+  &trans  &trans     &trans     &trans     &trans    &trans     &trans     &trans     &trans   &trans
+  &trans  &mkp RCLK  &mkp MCLK  &mkp LCLK  &trans    &none      &mkp RCLK  &mkp MCLK  &none    &none
+  &trans  &trans     &mo 7      &mo 6      &trans    &mkp RCLK  &mkp LCLK  &to 7      &to SCR  &trans
+                     &trans     &trans     &trans    &trans     &trans
             >;
         };
 
