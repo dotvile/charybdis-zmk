@@ -21,7 +21,7 @@ layers:
   - {t: T, h: RIGHT CONTROL}
   - {t: N, h: RIGHT ALT}
   - {t: S, h: LEFT SHIFT}
-  - ;
+  - {t: ;, h: Media}
   - Q
   - J
   - K
@@ -30,12 +30,12 @@ layers:
   - M
   - W
   - V
-  - Z
+  - {t: Z, h: Pointer}
   - {t: '$$mdi:keyboard-tab$$', h: Pointer}
   - Symbols
   - {t: '$$mdi:keyboard-space$$', h: Movement}
-  - {t: '$$mdi:backspace$$', h: Numpad}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - Numpad
   Symbols:
   - '`'
   - '@'
@@ -71,7 +71,7 @@ layers:
   - {type: held}
   - ''
   - LEFT GUI
-  - Media
+  - ''
   Movement:
   - $$mdi:keyboard-esc$$
   - ''
@@ -142,8 +142,8 @@ layers:
   - .
   - '0'
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', type: held}
-  - Media
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: Media, type: held}
   Media:
   - {t: '$$mdi:bluetooth-connect$$', h: '0'}
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
@@ -165,7 +165,7 @@ layers:
   - F6
   - F7
   - F8
-  - ''
+  - {type: held}
   - BRI DEC
   - BRI INC
   - ''
@@ -176,10 +176,10 @@ layers:
   - F11
   - F12
   - ''
-  - {type: held}
+  - ''
   - LEFT GUI
   - RIGHT CONTROL
-  - {t: RIGHT ALT, type: held}
+  - RIGHT ALT
   Pointer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -192,26 +192,26 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PG UP
-  - '&mkp LCLK'
-  - '&msc SCRL_UP'
   - '&mkp RCLK'
   - '&mkp MCLK'
+  - '&mkp LCLK'
+  - {t: ▽, type: trans}
+  - PG UP
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sniper
+  - Scroll
   - {t: ▽, type: trans}
   - PAGE DOWN
-  - {t: ▽, type: trans}
-  - '&msc SCRL_DOWN'
-  - {t: Scroll, h: toggle}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - Sniper
+  - Scroll
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -240,13 +240,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -275,14 +275,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
