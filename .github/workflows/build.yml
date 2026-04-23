@@ -34,7 +34,7 @@ jobs:
           echo "build_dir=$(mktemp -d)" >> $GITHUB_ENV
 
       - name: Prepare variables
-        shell: sh -x {0}
+        shell: bash -x {0}
         env:
           board: ${{ matrix.board }}
           shield: ${{ matrix.shield }}
