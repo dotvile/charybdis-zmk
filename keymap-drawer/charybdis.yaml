@@ -155,10 +155,10 @@ layers:
   - F2
   - F3
   - F4
+  - ''
   - MUTE
   - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
-  - ''
+  - VOLUME UP
   - '&bootloader'
   - '&bootloader'
   - F5
@@ -170,7 +170,7 @@ layers:
   - BRI INC
   - ''
   - BT CLR
-  - ''
+  - $$mdi:apple-keyboard-shift$$
   - F9
   - F10
   - F11
