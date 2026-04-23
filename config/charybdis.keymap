@@ -89,10 +89,10 @@
         Symbols {
             label = "Symbols";
             bindings = <
-  &kp GRAVE       &kp AT     &kp HASH   &kp PRCNT  &none       &kp PLUS      &kp LBRC      &kp RBRC  &kp EQUAL  &none
-  &kp LEFT_SHIFT  &kp PIPE   &kp EXCL   &kp APOS   &kp AMPS    &kp MINUS     &kp LPAR      &kp RPAR  &kp SLASH  &kp RIGHT_SHIFT
-  &none           &kp TILDE  &kp CARET  &kp COLON  &none       &kp STAR      &kp QUESTION  &kp DLLR  &kp BSLH   &none
-                             &none      &none      &none       &kp LEFT_GUI  &none
+  &kp GRAVE         &kp AT     &kp HASH   &kp PRCNT  &none       &kp PLUS      &kp LBRC       &kp RBRC  &kp EQUAL  &none
+  &kp LEFT_SHIFT    &kp PIPE   &kp EXCL   &kp APOS   &kp AMPS    &kp MINUS     &kp LPAR       &kp RPAR  &kp SLASH  &kp RIGHT_SHIFT
+  &kp LEFT_CONTROL  &kp TILDE  &kp CARET  &kp COLON  &none       &kp STAR      &kp QUESTION   &kp DLLR  &kp BSLH   &kp RIGHT_CONTROL
+                               &none      &none      &none       &kp LEFT_GUI  &kp RIGHT_ALT
             >;
         };
 
