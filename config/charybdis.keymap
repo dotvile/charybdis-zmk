@@ -17,8 +17,10 @@
 &sl { release-after-ms = <250>; };
 
 &mt {
+    flavor = "tap-preferred";
     tapping-term-ms = <200>;
     require-prior-idle-ms = <150>;
+    retro-tap;
 };
 
 / {
