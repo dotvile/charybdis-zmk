@@ -1,185 +1,185 @@
 layout: {zmk_keyboard: charybdis, layout_name: five_column_transform}
 layers:
-  Base:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
+  Dvorak:
+  - $$mdi:keyboard-esc$$
+  - ','
+  - .
   - P
-  - A
-  - S
-  - D
+  - Y
   - F
   - G
-  - H
+  - C
+  - R
+  - L
+  - {t: A, h: LEFT SHIFT}
+  - {t: O, h: RIGHT ALT}
+  - {t: E, h: LEFT CONTROL}
+  - {t: U, h: LEFT GUI}
+  - I
+  - D
+  - {t: H, h: RIGHT GUI}
+  - {t: T, h: RIGHT CONTROL}
+  - {t: N, h: RIGHT ALT}
+  - {t: S, h: LEFT SHIFT}
+  - ;
+  - Q
   - J
   - K
-  - L
-  - ''''
-  - {t: Z, h: LEFT SHIFT}
-  - {t: X, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: C, h: LEFT ALT}
-  - V
+  - X
   - B
-  - N
   - M
-  - {t: ',', h: RIGHT ALT}
-  - {t: ., h: '$$mdi:apple-keyboard-control$$'}
-  - {t: /, h: RIGHT SHIFT}
+  - W
+  - V
+  - Z
   - {t: '$$mdi:keyboard-tab$$', h: Pointer}
-  - $$mdi:keyboard-space$$
-  - {t: ESCAPE, h: Function}
-  - {t: '$$mdi:backspace$$', h: Numeral}
+  - Symbols
+  - {t: '$$mdi:keyboard-space$$', h: Movement}
+  - {t: '$$mdi:backspace$$', h: Numpad}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  Numeral:
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  Symbols:
+  - '`'
+  - '@'
+  - '#'
+  - '%'
+  - ''
+  - +
+  - '{'
+  - '}'
+  - '='
+  - ''
+  - LEFT SHIFT
+  - '|'
+  - '!'
+  - ''''
+  - '&'
+  - '-'
+  - (
+  - )
+  - /
+  - RIGHT SHIFT
+  - ''
+  - '~'
+  - ^
+  - ':'
+  - ''
+  - '*'
+  - '?'
+  - $
+  - \
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - LEFT GUI
+  - Media
+  Movement:
+  - $$mdi:keyboard-esc$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-caps$$
+  - ''
+  - ''
+  - $$mdi:apple-keyboard-shift$$
+  - LEFT ALT
+  - LEFT CONTROL
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:keyboard-tab$$
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - Media
+  - ''
+  - {type: held}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
+  Numpad:
+  - ''
   - '7'
   - '8'
   - '9'
-  - '0'
-  - (
-  - )
-  - '['
-  - ']'
-  - \
-  - LEFT ARROW
-  - DOWN ARROW
-  - UP ARROW
-  - $$mdi:arrow-right-bold$$
-  - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  Symbol:
-  - '~'
-  - '&'
-  - '*'
-  - {t: ▽, type: trans}
   - +
-  - {t: ▽, type: trans}
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - '|'
   - '-'
-  - $
-  - '%'
-  - ^
-  - '='
-  - {t: ▽, type: trans}
+  - '*'
+  - /
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - ''
+  - RIGHT GUI
+  - RIGHT CONTROL
+  - RIGHT ALT
+  - RIGHT SHIFT
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - ','
+  - ''
   - (
   - )
-  - '"'
-  - ''''
-  - _
-  - '!'
-  - '@'
-  - '#'
-  - '`'
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Function:
-  - F1
-  - F2
-  - F3
-  - F4
-  - $$mdi:play-pause$$
+  - ''
+  - ''
+  - .
+  - '0'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: held}
+  - Media
+  Media:
   - {t: '$$mdi:bluetooth-connect$$', h: '0'}
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
   - {t: '$$mdi:bluetooth-connect$$', h: '2'}
   - {t: '$$mdi:bluetooth-connect$$', h: '3'}
   - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - '&sys_reset'
+  - F1
+  - F2
+  - F3
+  - F4
+  - MUTE
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - ''
+  - '&bootloader'
+  - '&bootloader'
   - F5
   - F6
   - F7
   - F8
-  - $$mdi:volume-high$$
+  - ''
+  - BRI DEC
+  - BRI INC
+  - ''
   - BT CLR
-  - ''
-  - ''
-  - ''
   - ''
   - F9
   - F10
   - F11
   - F12
-  - $$mdi:volume-low$$
-  - '&bootloader'
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Media:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:bluetooth-off$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:bluetooth-off$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-off$$
-  - $$mdi:volume-high$$
-  - $$mdi:skip-next$$
-  - $$mdi:skip-previous$$
-  - $$mdi:volume-low$$
-  - $$mdi:volume-off$$
-  - $$mdi:volume-high$$
-  - $$mdi:skip-next$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PLAY PAUSE
-  - STOP
-  - STOP
-  - PLAY PAUSE
+  - LEFT GUI
+  - RIGHT CONTROL
+  - {t: RIGHT ALT, type: held}
   Pointer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
