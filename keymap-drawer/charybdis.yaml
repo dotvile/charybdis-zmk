@@ -57,7 +57,7 @@ layers:
   - )
   - /
   - RIGHT SHIFT
-  - ''
+  - LEFT CONTROL
   - '~'
   - ^
   - ':'
@@ -66,12 +66,12 @@ layers:
   - '?'
   - $
   - \
-  - ''
+  - RIGHT CONTROL
   - ''
   - {type: held}
   - ''
   - LEFT GUI
-  - ''
+  - RIGHT ALT
   Movement:
   - $$mdi:keyboard-esc$$
   - ''
