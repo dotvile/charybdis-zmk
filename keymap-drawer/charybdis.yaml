@@ -196,7 +196,7 @@ layers:
   - '&mkp MCLK'
   - '&mkp LCLK'
   - {t: ▽, type: trans}
-  - PG UP
+  - ''
   - '&mkp RCLK'
   - '&mkp MCLK'
   - ''
@@ -206,10 +206,10 @@ layers:
   - Sniper
   - Scroll
   - {t: ▽, type: trans}
-  - PAGE DOWN
+  - '&mkp RCLK'
   - '&mkp LCLK'
-  - Sniper
-  - Scroll
+  - {t: Sniper, h: toggle}
+  - {t: Scroll, h: toggle}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
