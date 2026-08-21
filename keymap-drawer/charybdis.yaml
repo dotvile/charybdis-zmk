@@ -175,7 +175,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: Gaming, h: toggle}
   - ''
   - '&sys_reset'
   - '&sys_reset'
@@ -288,6 +288,42 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  Gaming:
+  - $$mdi:keyboard-esc$$
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Dvorak, h: toggle}
+  - $$mdi:keyboard-tab$$
+  - Q
+  - W
+  - E
+  - R
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB5'
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - F
+  - '5'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-space$$
+  - P
+  - B
 combos:
 - p: [16, 17]
   k: '-'
