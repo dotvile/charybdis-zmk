@@ -305,21 +305,21 @@ layers:
   - E
   - R
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - T
+  - Scroll
   - '&mkp MB4'
   - '&mkp MB5'
-  - $$mdi:apple-keyboard-shift$$
+  - LEFT CONTROL
   - A
   - S
   - D
   - F
   - '5'
   - '&mkp LCLK'
-  - '&mkp MCLK'
   - '&mkp RCLK'
-  - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - '&mkp MCLK'
+  - G
+  - LEFT ALT
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - P
