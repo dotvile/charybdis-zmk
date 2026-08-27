@@ -197,16 +197,16 @@ layers:
   - '&mkp LCLK'
   - '&mkp MCLK'
   - ''
-  - '&mkp RCLK'
-  - ''
-  - ''
-  - ''
+  - RIGHT GUI
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - '&mkp MB5'
   - ''
   - '&mkp RCLK'
   - '&mkp MCLK'
   - ''
-  - '&mkp MCLK'
+  - '&mkp RCLK'
   - '&mkp LCLK'
   - Sniper
   - Scroll
