@@ -131,10 +131,10 @@
         Pointer {
             label = "Pointer";
             bindings = <
-  &none     &none  &none      &none      &none        &none      &none          &none      &none     &none
-  &mkp MB4  &mo 7  &mo 6      &mkp LCLK  &mkp MCLK    &none      &kp RIGHT_GUI  &kp LCTRL  &kp LALT  &kp LSHFT
-  &mkp MB5  &none  &mkp RCLK  &mkp MCLK  &none        &mkp RCLK  &mkp LCLK      &mo 7      &mo 6     &none
-                   &none      &none      &none        &none      &none
+  &none  &none  &none      &none      &none    &none      &none          &none      &none     &none
+  &none  &mo 7  &mo 6      &mkp LCLK  &none    &none      &kp RIGHT_GUI  &kp LCTRL  &kp LALT  &kp LSHFT
+  &none  &none  &mkp RCLK  &mkp MCLK  &none    &mkp RCLK  &mkp LCLK      &mo 7      &mo 6     &none
+                &none      &none      &none    &mkp MB4   &mkp MB5
             >;
         };
 
